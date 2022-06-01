@@ -1,0 +1,20 @@
+:- dynamic alimentacion/3.
+
+alimentacion(leon, carne, 5).
+alimentacion(jirafa, hojas, 6).
+
+:- dynamic bebida/3.
+
+bebida(leon, agua, 3).
+bebida(jirafa, agua, 3).
+
+:- dynamic reproduccion/3.
+
+reproduccion(leon, verano, 4).
+reproduccion(jirafa, verano, 7).
+
+:- dynamic horas_suenio/2.
+
+horas_suenio(leon, 6).
+horas_suenio(jirafa, 9).
+

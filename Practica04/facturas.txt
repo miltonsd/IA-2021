@@ -1,0 +1,7 @@
+:- dynamic gasto/2.
+
+gasto(juan, super(86)).
+gasto(pedro, tel(160)).
+gasto(juan, luz(44)).
+gasto(martin, luz(45)).
+

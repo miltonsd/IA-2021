@@ -1,0 +1,6 @@
+:- dynamic libro/5.
+
+libro(1, martinFierro, joseHernandez, arg, 150).
+libro(2, historia1, fulanito, arg, 95).
+libro(3, historia1, fulanito, educAR, 70).
+

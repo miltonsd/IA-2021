@@ -1,0 +1,5 @@
+:- dynamic personas/2.
+
+personas(1, milton).
+personas(2, agostina).
+

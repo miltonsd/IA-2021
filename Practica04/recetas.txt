@@ -1,0 +1,6 @@
+:- dynamic receta/3.
+
+receta(1, pure, [ingrediente(papa, 3), ingrediente(manteca, 1)]).
+receta(2, tortilla, [ingrediente(papa, 4), ingrediente(queso, 3), ingrediente(huevo, 2)]).
+receta(3, omelette, [ingrediente(huevo, 2), ingrediente(queso, 2)]).
+

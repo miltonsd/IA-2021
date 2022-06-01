@@ -1,0 +1,7 @@
+:- dynamic padres/3.
+
+padres(_, _, _).
+padres(belen, ticiana, quique).
+padres(juanmiguel, ticiana, quique).
+padres(sebastian, ida, beto).
+
