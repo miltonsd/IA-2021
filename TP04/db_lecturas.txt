@@ -1,0 +1,57 @@
+:- dynamic(lecturas/3).
+
+% Genero: Aventura
+
+lecturas('Vagabond',5,['Emocionante','Accion Asiatica','Thriller','+16']).
+lecturas('Crossing Lines',5,['Siniestro','De Suspenso','Accion','+16']).
+lecturas('Altered Carbon',5,['Surrealista','Distopico','Violento']).
+lecturas('Luke Kage',5,['Energico','Siniestro','Emocionante']).
+lecturas('Narcos',5,['Crudo','Siniestro','De Suspenso','+16']).
+lecturas('Jessica Jones',5,['Crudo','Siniestro','Emocionante']).
+
+% Genero: Ciencia Ficcion
+
+lecturas('Otra Vida',4,['Distopico','Emocionante','De Suspenso','+16']).
+lecturas('La Reina del Sur',4,['Telenovelistica','Crudo','De Suspenso','+16']).
+lecturas('La Isla',4,['Surrealista','Distopico','Inquietante','+16']).
+lecturas('Elite',4,['Telenovelistica','Suspenso Insostenible','De Suspenso','+16']).
+lecturas('Vis a Vis',4,['Suspenso Insostenible','Crudo','Violento','+16']).
+
+% Genero: Fanfic
+
+lecturas('Full House',2,['Optimista','Sitcom','Comedia']).
+lecturas('The Smurfs',2,['Magico','Disparatado','Comedia Animada']).
+lecturas('Horsin Around',2,['Sarcastico', 'Cinico', 'Animacion para Adultos']).
+lecturas('Danger Mouse',2,['Ingenioso','Disparatado','Comedia Animada']).
+lecturas('Brooklyn nine-nine',2,['Disparatado','Sitcom','Comedia','+16']).
+lecturas('That 70s Show',2,['Disparatado','Sitcom','Comedia','+16']).
+lecturas('El principe del Rap en Bel-Air',2,['Disparatado','Comedia','Aclamado por las Criticas','+16']).
+
+% Genero: Novela Juvenil
+
+lecturas('Patrulla de Cachorros',6,['Optimista','Emocionante','Dibujo Animado']).
+lecturas('Jefe en Pañales: De vuelta a los Negocios',6,['Emocionante','Comedia Animada','Dibujo Animado']).
+lecturas('Masha y el Oso',6,['Optimista','Disparatado','Mitos y Leyendas']).
+lecturas('Peppa Pig', 6,['Optimista','Dibujo Animado','Kids']).
+lecturas('Los Jovenes Titanes en Accion',6,['Excentrico','Ingenioso','Disparatado']).
+
+% Genero: Romance
+
+lecturas('Anatomy Grey',3,['Telenovelistica','Emotivo','Romantico','+16']).
+lecturas('Jane the Virgin',3,['Telenovelistica','Excentrico','Romantico','+16']).
+lecturas('Friend From College',3,['Ingenioso','Romantico','Comedia']).
+lecturas('Dinastia',3,['Telenovelistica','Drama','Lgbt','+16']).
+lecturas('You, Habil',3,['Siniestro','Romantico']).
+lecturas('Plan Corazon',3,['Optimista','Romantico','Comedia','+16']).
+
+% Genero: Terror
+
+lecturas('La Maldicion de Hill House',1,['Escalofriante','De Miedo', 'Emotivo','+16']).
+lecturas('Marianne',1,['Surrealista', 'Inquietante','Escalofriante','+16']).
+lecturas('Slasher',1,['Macabro','De Miedo','De Suspenso','+16']).
+lecturas('La Niebla',1,['Inquietante','De Miedo','Siniestro','+16']).
+lecturas('Bates Motel',1,['Inquietante','Psicologico','De Suspenso','+16']).
+lecturas('Gosh Wars',1,['De Miedo','De Suspenso','Terror','+16']).
+lecturas('Scream',1,['Macabro','Inquietante','De Miedo','+16']).
+lecturas('Hemlock Grove',1,['Inquietante','Sangriento','Escalofriante','+16']).
+lecturas('Residue',1,['Distopico','Inquietante','Escalofriante','+16']).

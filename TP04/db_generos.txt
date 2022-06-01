@@ -1,0 +1,9 @@
+:- dynamic(genero/2).
+
+%genero(generoID,generoNombre).
+genero(1,'Aventura').
+genero(2,'Ciencia Ficcion').
+genero(3,'Fanfic').
+genero(4,'Novela Juvenil').
+genero(5,'Romance').
+genero(6,'Terror').
